@@ -15,15 +15,13 @@ Market-Bot-6 is a Reinforcement Learning Agent that learn to trade on time serie
 
 ## Main
 
-Pull the Dataset for any symbol in any period of time in Forex market that contain the basic Features
-(open, high, low, close).
-
+In main we initialize the environment and train the agent then test it.
    
 ## Environment
 
-In Feature we calculate the machine learning Feature based on this research [(here)](http://www.wseas.us/e-library/conferences/2011/Penang/ACRE/ACRE-05.pdf).
+Environment include the main component that the agent need to train (state, action, reward, step, reset).
 
 
 ## Data
 
-In Feature-Calculator we calculate the machine learning Feature based on this research [(here)](http://www.wseas.us/e-library/conferences/2011/Penang/ACRE/ACRE-05.pdf).
+In Data we extract the necessary data for building the Environment.
